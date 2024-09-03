@@ -240,27 +240,38 @@ banner {
   }
 }
 .img1 {
+  border-radius: 100%;
+
   &:hover {
     background-color: #7f95b6;
   }
 }
 .img2,
 .img4 {
+
+  border-radius: 100%;
+
   &:hover {
     background-color: #76dfbc;
   }
 }
 .img3 {
+  border-radius: 100%;
+
   &:hover {
     background-color: #ff0000;
   }
 }
 .img5 {
+  border-radius: 100%;
+
   &:hover {
     background-color: #9c2e4f;
   }
 }
 .img6 {
+  border-radius: 100%;
+
   &:hover {
     background-color: #8fc24d;
   }
