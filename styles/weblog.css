@@ -29,12 +29,12 @@ header {
   }
   nav {
     display: flex;
-    .menu-item-a{ 
+    .menu-item-a {
+      &:last-of-type {
+        border-left: none;
+      }
+    }
 
-      &:last-of-type{ 
-   border-left: none;
- }}
- 
     .menu-item {
       color: rgb(154, 150, 145);
       text-decoration: none;
@@ -68,7 +68,6 @@ header {
   }
 }
 .titr {
-
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 180px;
@@ -76,7 +75,7 @@ header {
   font-size: 22px;
   text-align: right;
   padding-right: 240px;
-  span{
+  span {
     color: #6a6c6e;
   }
 }
